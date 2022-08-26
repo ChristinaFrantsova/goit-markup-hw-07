@@ -1,2 +1,11 @@
-@import "./base/container.scss";
-@import "./utilits/variables.scss";
+// Utilits
+@import "./utilits/visually-hidden";
+@import "./utilits/variables";
+// Base
+@import "./base/base";
+@import "./base/container";
+// Components
+@import "./components/button";
+// layouts
+@import "./layouts/header";
+@import "./layouts/hero";
