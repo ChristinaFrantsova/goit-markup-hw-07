@@ -35,13 +35,13 @@
   height: 38px;
   min-width: 73px;
   border: solid transparent;
-}
 
-.button:hover,
-.button:focus {
-  color: var(--primery-white-color);
-  background-color: var(--accent-color);
-  box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.3);
+  &:hover,
+  &:focus {
+    color: var(--primery-white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.3);
+  }
 }
 
 .button-item:not(:last-child) {
@@ -59,12 +59,13 @@
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.3);
+  }
 }
 
-.work__list-item:hover,
-.work__list-item:focus {
-  box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.3);
-}
 .work__list-item:hover .work__list-text {
   transform: translateY(0);
 }

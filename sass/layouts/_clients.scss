@@ -18,21 +18,21 @@
   border-radius: 4px;
   width: 170px;
   height: 92px;
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    outline-color: var(--accent-color);
+  }
 }
 
 .clients__icon {
   fill: #afb1b8;
   transition: inherit;
-}
 
-.clients__link:hover,
-.clients__link:focus {
-  border-color: var(--accent-color);
-  outline-color: var(--accent-color);
-}
-
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
-  fill: var(--accent-color);
-  /* transition: inherit; */
+  .clients__link:hover &,
+  .clients__link:focus & {
+    fill: var(--accent-color);
+    /* transition: inherit; */
+  }
 }

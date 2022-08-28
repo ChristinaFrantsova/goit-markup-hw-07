@@ -38,6 +38,17 @@
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.adress__link,
+.adress__contact.mail {
+  display: block;
+  margin-bottom: 9px;
 }
 
 .adress__contact {
@@ -50,19 +61,11 @@
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-}
 
-.adress__link:hover,
-.adress__link:focus,
-.adress__contact:hover,
-.adress__contact:focus {
-  color: var(--accent-color);
-}
-
-.adress__link,
-.adress__contact.mail {
-  display: block;
-  margin-bottom: 9px;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 /* --------footer social link------------- */
@@ -139,14 +142,14 @@
   outline: rgba(255, 255, 255, 0.3);
   padding-left: 16px;
   color: rgba(255, 255, 255, 0.6);
-}
 
-.sing-up__input::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .sign-up__button {
